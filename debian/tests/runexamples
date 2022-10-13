@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+node "/usr/share/doc/node-detective/examples/strings.js"

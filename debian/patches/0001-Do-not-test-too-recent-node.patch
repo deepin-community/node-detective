@@ -1,0 +1,29 @@
+From 87eb748a66da612cbcd770a62bc3a7152f2bb42f Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Bastien=20Roucari=C3=A8s?= <rouca@debian.org>
+Date: Sun, 15 Sep 2019 20:42:23 +0200
+Subject: Do not test too recent node
+
+Do not run test that need too recent node
+
+Forwarded: not-needed
+---
+ test/es2019.js | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/test/es2019.js b/test/es2019.js
+index 9e96ead..7938886 100644
+--- a/test/es2019.js
++++ b/test/es2019.js
+@@ -8,8 +8,9 @@ test('es2019 - for-await', function (t) {
+     t.end();
+ });
+ 
+-test('es2019 - optional-catch', function (t) {
++/* test('es2019 - optional-catch', function (t) {
+     var src = fs.readFileSync(__dirname + '/files/optional-catch.js');
+     t.doesNotThrow(detective.bind(detective, src), 'Files with omitted catch binding do not throw')
+     t.end();
+-});
++}); */
++ 
+\ No newline at end of file

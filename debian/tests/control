@@ -1,0 +1,8 @@
+Tests: require
+Depends: node-detective, nodejs (>= 6)
+
+Tests: runexamples
+Depends: node-detective, nodejs (>= 6)
+
+Tests: runtestsuite
+Depends: node-detective, node-tap (>= 5.1.2), nodejs (>= 6)

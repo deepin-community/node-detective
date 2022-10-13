@@ -1,0 +1,47 @@
+node-detective (5.2.0-3) unstable; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-defined, node-minimist,
+      node-tap and nodejs.
+    + node-detective: Drop versioned constraint on node-defined, node-minimist
+      and nodejs in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 10:54:54 +0100
+
+node-detective (5.2.0-2) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 22:27:09 +0100
+
+node-detective (5.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump debhelper and policy (no changes)
+  * Move to /usr/share
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 15 Sep 2019 20:40:46 +0200
+
+node-detective (5.1.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump compat and policy (no changes)
+  * Move to salsa
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 07 May 2018 14:24:12 +0200
+
+node-detective (4.6.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 30 Nov 2017 11:33:30 +0100
+
+node-detective (4.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #873453)
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 28 Aug 2017 15:08:56 +0200
